@@ -28,7 +28,7 @@ def listingPersons():
     listView.delete(*listView.get_children())
     persons = get()
     for p in persons:
-        listView.insert("", "end", value=[p[0], p[1], p[2], p[3]])
+        listView.insert("", "end", value=[p[1], p[2], p[3], p[4]])
 
 formPerson = Frame(root)
 formPerson.pack(side=TOP)
